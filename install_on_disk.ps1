@@ -1,3 +1,4 @@
+#Start-Process powershell -Verb RunAs -ArgumentList "-Command iex (iwr 'https://raw.githubusercontent.com/piedacoulisse2/velo/refs/heads/main/install_on_disk.ps1' -UseBasicParsing).Content"
 #iex (iwr 'https://raw.githubusercontent.com/piedacoulisse2/velo/refs/heads/main/install_on_disk.ps1' -UseBasicParsing).Content
 $url = "https://github.com/piedacoulisse2/velo/releases/download/v1.0/velociraptor-v0.73.3-windows-amd64.msi"
 
